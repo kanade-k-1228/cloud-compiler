@@ -14,7 +14,7 @@ const receiveFile = async (request: Request, filename: string) => {
 const unzip = new Deno.Command("unzip", { args: ["src.zip"], cwd: "tmp" });
 const run = new Deno.Command("make", { cwd: "tmp/src" });
 const zip = new Deno.Command("zip", {
-  args: ["-r", "src_res.zip", "src"],
+  args: ["-r", "res.zip", "src"],
   cwd: "tmp",
 });
 
@@ -24,8 +24,8 @@ const handler = async (request: Request) => {
   await unzip.output();
   await run.output();
   await zip.output();
-  const res = new Response(`this is response\n`, { status: 200 });
-  return res;
+  const res_data = await Deno.readFile("tmp/res.zip");
+  return new Response(res_data, { status: 200 });
 };
 
 Deno.serve(handler);
