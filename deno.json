@@ -1,6 +1,7 @@
 {
   "tasks": {
     "dev": "deno run --allow-net --allow-read --allow-write --allow-run main.ts",
-    "send": "curl -i http://localhost:8000 -F \"file=@client/src.zip\" -o client/res.zip"
+    "make": "cd test && zip -r src.zip src",
+    "send": "curl http://localhost:8000 -F \"file=@test/src.zip\" -o test/res.zip"
   }
 }
