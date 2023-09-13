@@ -1,7 +1,6 @@
 import { ensureDir } from "https://deno.land/std@0.133.0/fs/ensure_dir.ts";
 import { dirname } from "https://deno.land/std@0.133.0/path/win32.ts";
 import { green } from "https://deno.land/std@0.201.0/fmt/colors.ts";
-import { decompress } from "https://deno.land/x/zip@v1.2.5/mod.ts";
 
 const receiveFile = async (request: Request, filename: string) => {
   const data = await request.formData();
@@ -12,12 +11,21 @@ const receiveFile = async (request: Request, filename: string) => {
   await Deno.writeFile(filename, u8a);
 };
 
+const unzip = new Deno.Command("unzip", { args: ["src.zip"], cwd: "tmp" });
+const run = new Deno.Command("make", { cwd: "tmp/src" });
+const zip = new Deno.Command("zip", {
+  args: ["-r", "src_res.zip", "src"],
+  cwd: "tmp",
+});
+
 const handler = async (request: Request) => {
   console.log(green(request.method), request.url);
-  await receiveFile(request, "server/src.zip");
-  await decompress("server/src.zip", "server");
-  const body = `this is response\n`;
-  return new Response(body, { status: 200 });
+  await receiveFile(request, "tmp/src.zip");
+  await unzip.output();
+  await run.output();
+  await zip.output();
+  const res = new Response(`this is response\n`, { status: 200 });
+  return res;
 };
 
 Deno.serve(handler);
