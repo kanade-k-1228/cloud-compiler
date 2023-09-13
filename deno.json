@@ -1,7 +1,9 @@
 {
   "tasks": {
-    "dev": "deno run --allow-net --allow-read --allow-write --allow-run main.ts",
+    "compile": "deno compile --allow-net --allow-read --allow-write --allow-run server/main.ts --output .bin/cc-server && deno compile --allow-net --allow-read --allow-write --allow-run client/main.ts --output .bin/cc-client",
+    "dev": "deno run --allow-net --allow-read --allow-write --allow-run server/main.ts",
     "make": "cd test && zip -r src.zip src",
-    "send": "curl http://localhost:8000 -F \"file=@test/src.zip\" -o test/res.zip"
+    "send": "curl http://localhost:8000 -F \"file=@test/src.zip\" -o test/res.zip",
+    "recev": "cd test && unzip -u res.zip"
   }
 }
