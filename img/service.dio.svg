@@ -1,0 +1,43 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="221px" height="245px" viewBox="-0.5 -0.5 221 245" content="&lt;mxfile&gt;&lt;diagram id=&quot;OE9BT2k5AohIhat9D0Pw&quot; name=&quot;ページ1&quot;&gt;7VlNc5swEP01HOsBCcf2MXGd9pDOZMaHnhUkgyYCMUL+SH99pSBhIxybcSGu7Vw88Fgt2vek1a7x4DTd/BAoT35xTJgHfLzx4HcPgNAfql8NvJVAEIJJicSCYoNtgTn9QwzoG3RJMSlqhpJzJmleByOeZSSSNQwJwdd1swVn9bfmKCYNYB4h1kR/UyyTEh2D0Rb/SWic2DcHdya+FFljE0mRIMzXOxCceXAqOJflVbqZEqbJs7yU4x4/eFpNTJBMthkAygErxJYmNjMv+WaDLV6JjPSsfQ8+5JxmkojZSvnXJAYKq2LQBhgVCcHmJpEps0ZS8Fcy5YwLhWQ8U94fFpQxC3kAhjAMw6HCUZGXsi3oRjt7YOiFsGdeUEl5pvCI6FmoBysiJFXCPDkGL1xKnu4Y3DMa6weS5/oF5q7yw5eS0UzNzy4Yvwws1ySkm1iv48FqhQcM5aULQ5xyTzYfkh9Ukqq9QHhKpHhTJnYANKvA7oOxuV9vF9WdgZKd9RTCgZEJmYUcV763WqsLI/d+6cPj0gu+zPC7mlrCdUIlmeco0k/XipG6wgueyUeUUqajeVpGFCPlTTFacO2vE8LGdcL28BWAfYT5/07X8DhdJMP3OrvohcVQUdCozlA5gOBGcjka/06Awz3xWUwQhiRd1d3vC9q84Vnv5h16R856HDm8FXwpImJG7WYVx1GVqK0j6DiSSMRENhy9a1CF3UqWu+uXBcDJYAw7UmaPr/7EGV2/ODDwBzDsSBx3//WnzPi4Ml/nfl/nfiM9fuq5P/mS/ozST84pvV13BxMyY6qNIsfrvQ7YcAvgb6AdG8MO6rkg+L+4cJPCp3LRog38VC4mZ+QCtuDiwosW4Nf5PbVgcRsGt8/qrl4JWnSrl66K2926bJ7afbnqdqjKDTTF1V91HxXlrTeLI2+jTehQl5voikO3kz29KW646jGT3UBTDMKjhLbWpumqv31jt/pVazPsKJ81HPWoS5ta/dJ1cY+HU3WB7oHVoy5t+oZL12V0uJpqLYtTc/d3woAb6GBgcJjN1klsfFjdk1VRt9uvuKX59ls4nP0F&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <style type="text/css">
+            @import url("https://fonts.googleapis.com/css?family='Kosugi+Maru");
+        </style>
+    </defs>
+    <g>
+        <rect x="0" y="200" width="60" height="43.2" fill="none" stroke="none" pointer-events="all"/>
+        <path d="M 60 238.86 C 60 241.22 58.22 243.2 55.43 243.16 L 4.11 243.13 C 2.16 243.13 0 241.46 0 238.86 Z M 5.13 200 L 5.13 200.63 L 5.13 238.23 L 54.87 238.23 L 54.87 200 Z M 6.38 201.25 L 53.62 201.25 L 53.62 235.4 L 6.38 235.4 Z" fill="#434445" stroke="none" pointer-events="all"/>
+        <rect x="50" y="100" width="120" height="40" rx="6" ry="6" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <path d="M 40 190 L 75.5 154.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 79.21 150.79 L 76.73 158.22 L 75.5 154.5 L 71.78 153.27 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 109.83 190 L 109.83 156.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 109.83 151.12 L 113.33 158.12 L 109.83 156.37 L 106.33 158.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 180.34 190 L 144.52 154.48" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 140.79 150.79 L 148.23 153.23 L 144.52 154.48 L 143.3 158.2 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="80" y="200" width="60" height="43.2" fill="none" stroke="none" pointer-events="all"/>
+        <path d="M 140 238.86 C 140 241.22 138.22 243.2 135.43 243.16 L 84.11 243.13 C 82.16 243.13 80 241.46 80 238.86 Z M 85.13 200 L 85.13 200.63 L 85.13 238.23 L 134.87 238.23 L 134.87 200 Z M 86.38 201.25 L 133.62 201.25 L 133.62 235.4 L 86.38 235.4 Z" fill="#434445" stroke="none" pointer-events="all"/>
+        <rect x="160" y="200" width="60" height="43.2" fill="none" stroke="none" pointer-events="all"/>
+        <path d="M 220 238.86 C 220 241.22 218.22 243.2 215.43 243.16 L 164.11 243.13 C 162.16 243.13 160 241.46 160 238.86 Z M 165.13 200 L 165.13 200.63 L 165.13 238.23 L 214.87 238.23 L 214.87 200 Z M 166.38 201.25 L 213.62 201.25 L 213.62 235.4 L 166.38 235.4 Z" fill="#434445" stroke="none" pointer-events="all"/>
+        <ellipse cx="30" cy="25" rx="30" ry="25" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <ellipse cx="110" cy="25" rx="30" ry="25" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <ellipse cx="190" cy="25" rx="30" ry="25" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <path d="M 70 90 L 44.5 64.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 40.79 60.79 L 48.22 63.27 L 44.5 64.5 L 43.27 68.22 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 50 60 L 75.5 85.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 79.21 89.21 L 71.78 86.73 L 75.5 85.5 L 76.73 81.78 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 90 150 L 54.5 185.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 50.79 189.21 L 53.27 181.78 L 54.5 185.5 L 58.22 186.73 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 104.83 90 L 104.83 66.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 104.83 61.12 L 108.33 68.12 L 104.83 66.37 L 101.33 68.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 114.83 60 L 114.83 83.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 114.83 88.88 L 111.33 81.88 L 114.83 83.63 L 118.33 81.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 120 150 L 120 183.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 120 188.88 L 116.5 181.88 L 120 183.63 L 123.5 181.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 150 150 L 185.5 185.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 189.21 189.21 L 181.78 186.73 L 185.5 185.5 L 186.73 181.78 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 140 90 L 165.5 64.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 169.21 60.79 L 166.73 68.22 L 165.5 64.5 L 161.78 63.27 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 180 60 L 154.5 85.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 150.79 89.21 L 153.27 81.78 L 154.5 85.5 L 158.22 86.73 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+    </g>
+</svg>
