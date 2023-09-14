@@ -22,7 +22,14 @@ const handler = async (request: Request) => {
   console.log(green(request.method), request.url);
   await receiveFile(request, "tmp/src.zip");
   await unzip.output();
-  await run.output();
+
+  // await Deno.readFile("make.remote");
+
+  const result = await run.output();
+  await Promise.all([
+    Deno.writeFile("stdout", result.stdout),
+    Deno.writeFile("stderr", result.stderr),
+  ]);
   await zip.output();
   const res_data = await Deno.readFile("tmp/res.zip");
   return new Response(res_data, { status: 200 });

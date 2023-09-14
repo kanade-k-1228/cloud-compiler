@@ -1,0 +1,8 @@
+synthesys:
+  cmd: yosys
+  arg: 
+  after: []
+
+place_n_route:
+  cmd: nextpnr-ice40
+  arg:
