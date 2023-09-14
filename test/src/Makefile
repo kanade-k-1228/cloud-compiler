@@ -1,3 +1,2 @@
-main: main.c
-	gcc $^ -o main
-	./main
+main.bin: main.c
+	gcc $^ -o $@
